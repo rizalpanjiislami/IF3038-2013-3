@@ -1,0 +1,141 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<style type="text/css">
+
+.tabelkeren {
+	margin:0px;padding:0px;
+	width:200px;
+	box-shadow: 10px 10px 5px #888888;
+	border:1px solid #000000;
+	
+	-moz-border-radius-bottomleft:0px;
+	-webkit-border-bottom-left-radius:0px;
+	border-bottom-left-radius:0px;
+	
+	-moz-border-radius-bottomright:0px;
+	-webkit-border-bottom-right-radius:0px;
+	border-bottom-right-radius:0px;
+	
+	-moz-border-radius-topright:0px;
+	-webkit-border-top-right-radius:0px;
+	border-top-right-radius:0px;
+	
+	-moz-border-radius-topleft:0px;
+	-webkit-border-top-left-radius:0px;
+	border-top-left-radius:0px;
+}.tabelkeren table{
+	width:100%;
+	height:100%;
+	margin:0px;padding:0px;
+}.tabelkeren tr:last-child td:last-child {
+	-moz-border-radius-bottomright:0px;
+	-webkit-border-bottom-right-radius:0px;
+	border-bottom-right-radius:0px;
+}
+.tabelkeren table tr:first-child td:first-child {
+	-moz-border-radius-topleft:0px;
+	-webkit-border-top-left-radius:0px;
+	border-top-left-radius:0px;
+}
+.tabelkeren table tr:first-child td:last-child {
+	-moz-border-radius-topright:0px;
+	-webkit-border-top-right-radius:0px;
+	border-top-right-radius:0px;
+}.tabelkeren tr:last-child td:first-child{
+	-moz-border-radius-bottomleft:0px;
+	-webkit-border-bottom-left-radius:0px;
+	border-bottom-left-radius:0px;
+}.tabelkeren tr:hover td{
+	background-color:#d3e9ff;
+		
+
+}
+.tabelkeren td{
+	vertical-align:middle;
+		background:-o-linear-gradient(bottom, #ffffff 5%, #d3e9ff 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #d3e9ff) ); 
+	background:-moz-linear-gradient( center top, #ffffff 5%, #d3e9ff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#d3e9ff");	background: -o-linear-gradient(top,#ffffff,d3e9ff);
+
+	background-color:#ffffff;
+
+	border:1px solid #000000;
+	border-width:0px 1px 1px 0px;
+	text-align:left;
+	padding:7px;
+	font-size:10px;
+	font-family:Arial;
+	font-weight:normal;
+	color:#000000;
+}.tabelkeren tr:last-child td{
+	border-width:0px 1px 0px 0px;
+}.tabelkeren tr td:last-child{
+	border-width:0px 0px 1px 0px;
+}.tabelkeren tr:last-child td:last-child{
+	border-width:0px 0px 0px 0px;
+}
+.tabelkeren tr:first-child td{
+		background:-o-linear-gradient(bottom, #0057af 5%, #007fff 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #0057af), color-stop(1, #007fff) );
+	background:-moz-linear-gradient( center top, #0057af 5%, #007fff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#0057af", endColorstr="#007fff");	background: -o-linear-gradient(top,#0057af,007fff);
+
+	background-color:#0057af;
+	border:0px solid #000000;
+	text-align:center;
+	border-width:0px 0px 1px 1px;
+	font-size:14px;
+	font-family:Arial;
+	font-weight:bold;
+	color:#ffffff;
+}
+.tabelkeren tr:first-child:hover td{
+	background:-o-linear-gradient(bottom, #0057af 5%, #007fff 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #0057af), color-stop(1, #007fff) );
+	background:-moz-linear-gradient( center top, #0057af 5%, #007fff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#0057af", endColorstr="#007fff");	background: -o-linear-gradient(top,#0057af,007fff);
+
+	background-color:#0057af;
+}
+.tabelkeren tr:first-child td:first-child{
+	border-width:0px 0px 1px 0px;
+}
+.tabelkeren tr:first-child td:last-child{
+	border-width:0px 0px 1px 1px;
+}
+
+
+</style>
+
+<body>
+<form id="form1" name="form1" method="post" action="buatkategoribaru.jsp">
+  <div align="center">
+    <p><strong>PEMBUATAN KATEGORI BARU</strong></p>
+    <table width="70%" border="1" class="tabelkeren">
+      <tr bgcolor="#0099CC">
+    <th width="10%" height="34" scope="col">No.</th>
+    <th width="40%" scope="col">Nama Tugas</th>
+    </tr>
+  <tr>
+    <td height="40" scope="row"><div align="center">Nama Kategori</div></td>
+    <td><div align="center">
+      <input type="text" name="namakategori" id="namakategori" />
+    </div></td>
+    </tr>
+  <tr>
+    <td height="40" scope="row"><div align="center">Pengguna yang Berhak</div></td>
+    <td><div align="center">
+      <input type="text" name="pengguna" id="pengguna" />
+    </a></div></td>
+    </tr>
+</table>
+    <p>
+      <input type="submit" name="ok" id="ok" value="OK" />
+</p>
+  </div>
+</form>
+<p>&nbsp;</p>
+</body>
+</html>

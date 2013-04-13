@@ -1,0 +1,621 @@
+﻿div.clear {
+	clear : both;
+}
+.bg_main {
+	background-color : #333;
+	padding : 0;
+	margin: 0px;
+	text-align : center;
+	vertical-align : top;
+}
+img {
+	border: 0px;
+}
+/* *******************************************  main outline*/
+#outer {
+	top : 0px;
+	margin : 0px auto;
+	width: 80%;
+	text-align : left;
+	border : 1px solid #a6a6a6;
+	background-color: #fff;
+}
+#main_inner {
+	margin: 0px 5px 0px 5px;
+	width: 100%;
+	text-align : left;
+	border : 0px;
+}
+/* ******************************************* top area */
+div#logo {
+	background : url(images2/backgroundlogo.png) top right no-repeat;
+	margin : 10px 0px 0px 0px;
+	height : 104px;
+	width : 745px;
+	text-align : left;
+	vertical-align : baseline;
+}
+
+#site_title {
+	position: relative;
+	z-index: 1;
+	top: 40px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20pt;
+	text-transform: uppercase;
+	left: 20px;
+}
+/* *******************************************  top navi */
+div#top_navi {
+	margin : 0px 0px 0px 0px;
+	padding : 75px 0px 0px 10px;
+	height : 18px;
+	text-align : left;
+}
+/* *******************************************  pathway */
+#can_pathway {
+	background : url(images/bg_path.jpg) top right repeat-x;
+	margin : 0px;
+	width : 100%;
+	height : 30px;
+	text-align : left;
+	padding-top: 5px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	background-image: url(images/bg_path.jpg);
+	background-repeat: repeat-x;
+}
+#can_pathway img {
+	margin : 8px 1px 1px 5px;
+}
+#can_pathway a, #can_pathway a:visited {
+	color : #ffffff;
+	font-size : 11px;
+	line-height : 17px;
+	font-weight : bold;
+}
+#can_pathway a:hover {
+	color : #FFAE60;
+	font-size : 11px;
+	line-height : 17px;
+	font-weight : bold;
+}
+.pathway {
+	margin : 0px;
+	border : 0;
+	font-size : 11px;
+	line-height : 17px;
+	font-weight : bold;
+	color : #ffffff;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+}
+a.pathway:link, a.pathway:visited {
+	color : #ffffff;
+	font-size : 11px;
+	line-height : 17px;
+}
+a.pathway:hover {
+	color : #FFAE60;
+}
+/* ******************************************* mid_out */
+#mid_out {
+	margin-top : 5px;
+	padding : 0px;
+	width : 100%;
+	min-height : 100%;
+}
+/* ******************************************* leftside */
+#leftmain {
+	float : right;
+	margin : 0px;
+	padding : 0px;
+	text-align : left;
+	width : 160px;
+}
+#rightmain {
+	float : left;
+	margin : 0px;
+	padding : 0px;
+	text-align : left;
+	width : 168px;
+}
+#rightmain table.moduletable {
+	margin-bottom : 3px;
+	padding : 0px;
+	text-align : left;
+}
+#rightmain table.moduletable th {
+	background : url(images/ltitle.jpg) no-repeat;
+	border : 0;
+	height : 22px;
+	font : bold 12px tahoma, Arial, Verdana, sans-serif, Helvetica;
+	color : #000000;
+	text-align : left;
+	text-indent : 10px;
+	padding : 0px 0px 3px;
+	margin : 0px;
+	line-height : 22px;
+}
+#leftmain table.moduletable th {
+	background : url(images/rtitle.jpg) no-repeat;
+	border : 0;
+	height : 22px;
+	font : bold 12px tahoma, Arial, Verdana, sans-serif, Helvetica;
+	color : #000000;
+	text-align : left;
+	text-indent: 5px;
+	padding: 0px 0px 0px 5px;
+	margin : 0px;
+	line-height : 22px;
+	background-position: left center;
+}
+#leftmain table.moduletable td {
+	font : normal 12px tahoma, Arial, Verdana, sans-serif, Helvetica;
+	color : #333;
+	text-align : left;
+	padding : 2px 0px 2px 0px;
+}
+#rightmain table.moduletable td {
+	font : normal 12px tahoma, Arial, Verdana, sans-serif, Helvetica;
+	color : #333;
+	text-align : left;
+	padding : 2px 0px 2px 0px;
+}
+/* ******************************************* right area */
+#rightarea {
+	float : right;
+	margin-right: 5px;
+	padding : 0px;
+	text-align : left;
+	width : 560px;
+}
+#leftarea {
+	float : right;
+	margin-left: 5px;
+	padding : 0px;
+	text-align : left;
+	width : 175px;
+}
+/* ******************************************* main_area */
+#main_area {
+	width : 100%;
+	margin : 0px 0px 4px 0px;
+	padding : 0px;
+	border : 0px;
+	text-align : left;
+}
+#main_body {
+	margin: 0px;
+	width : 100%;
+	padding : 0px;
+	border : 0px;
+	text-align : justify;
+}
+/* *******************************************  main corner*/
+div.left_edge {
+	background: url(images/bg_rightside.gif) repeat-y right top;
+	margin-bottom : 7px;
+}
+div.right_edge {
+	background: url(images/bg_leftside.gif) repeat-y left top;
+}
+div.top_lcorner {
+	background: url(images/corner2.gif) no-repeat right top;
+	height : 6px;
+}
+div.top_rcorner {
+	background: url(images/corner1.gif) no-repeat left top;
+	height : 6px;
+}
+div.top_edge {
+	background : url(images/bg_corner1.gif) top right repeat-x;
+	height : 6px;
+	clear : both;
+}
+div.bot_lcorner {
+	background: url(images/corner4.gif) no-repeat right bottom;
+	height : 6px;
+}
+div.bot_rcorner {
+	background: url(images/corner3.gif) no-repeat left bottom;
+	height : 6px;
+}
+div.bottom_edge {
+	background : url(images/bg_corner2.gif) bottom right repeat-x;
+	height : 6px;
+	clear : both;
+}
+div.border {
+	border-left : 1px solid #d6d6d6;
+	border-right: 1px solid #d6d6d6;
+	padding : 0px;
+}
+div.corner_inner {
+	padding: 0px 5px 0px 5px;
+}
+/* ******************************************* bottom navi */
+table.moduletable-topnav {
+	padding : 0;
+	text-align: center;
+}
+.moduletable-topnav td {
+	text-align : center;
+	color: #FFFFFF;
+}
+.topnav {
+	width : 0;
+}
+a.topnav:link, a.topnav:visited {
+	width : auto;
+	color : #fff;
+	border : 0;
+	margin : 0px 4px;
+	text-decoration : none;
+	font-weight : bold;
+	font-size : 8pt;
+	text-align: center;
+	padding-left: 10px;
+}
+a.topnav:hover {
+	color : #ccc;
+	text-align: center;
+}
+/* ******************************************* bottomcontainer */
+div.bottomcontainer {
+	background : url(images/bg_bnavi.jpg) top right repeat-x;
+	margin : 0px 0px 0px 0px;
+	width : 100%;
+	height : 30px;
+	text-align : center;
+	padding-top : 5px;
+}
+/* ******************************************* Footer */
+#footer {
+	width : 100%;
+	text-align : center;
+	font : normal 12px tahoma, Verdana, Arial, Helvetica, sans-serif;
+	color : #222;
+	line-height : 18px;
+	margin-right: 0;
+	margin-bottom: 0px;
+	margin-left: 0;
+	padding-bottom: 7px;
+}
+/* *******************************************  General CSS Styles  */
+/*.body {
+	background		: #ffffff; 
+	padding			: 0; 
+	margin			: 0;
+	vertical-align	: top;
+	scrollbar-face-color: #666;
+    scrollbar-shadow-color: #666;
+    scrollbar-darkshadow-color: #ffffff;
+    scrollbar-highlight-color: #666;
+    scrollbar-3dlight-color: #ffffff;
+    scrollbar-track-color: #e9e9e9;
+    scrollbar-arrow-color: #ffffff;
+}*/
+td, div{
+	margin: 0px;
+	color : #000;
+	font-family : tahoma, Arial, Verdana, sans-serif, Helvetica;
+	font-size : 14px;
+	padding : 0px;
+	line-height : 17px;
+}
+
+a, a:link, a:visited {
+	color : #333;
+	text-decoration : none;
+}
+a:hover {
+	color : #158DD6;
+	text-decoration : none;
+}
+h1 {
+	font: bold 16px tahoma, Arial, Verdana, sans-serif, Helvetica;
+	color: #666;
+	margin: 0px;
+	padding: 0px;
+}
+h2 {
+	font: bold 15px tahoma, Arial, Verdana, sans-serif, Helvetica;
+	color: #666;
+	margin: 0px;
+	padding: 0px;
+}
+h3 {
+	font: bold 14px tahoma, Arial, Verdana, sans-serif, Helvetica;
+	color: #666;
+	margin: 0px;
+	padding: 0px;
+}
+h4 {
+	font: bold 12px tahoma, Arial, Verdana, sans-serif, Helvetica;
+	color: #666;
+	margin: 0px;
+	padding: 0px;
+}
+ol {
+	list-style : decimal inside;
+	padding : 0px;
+	margin : 0px;
+}
+ul {
+	margin : 0;
+	padding : 0;
+	list-style : disc inside;
+}
+li {
+	line-height : 17px;
+	padding : 0px 15px 0px 0px;
+}
+marquee {
+	background-color: #7490AA;
+	color: #FFFFFF;
+}
+blockquote {
+	margin : 10px;
+	margin-left : 30px;
+	padding : 0 10px 0 20px;
+	border-left : 5px solid #02609D;
+	background-color: #B1E0FE;
+}
+form {
+	margin : 0;
+	padding : 0;
+}
+select {
+	font-size : 12px;
+	font-weight : bold;
+	color : #333;
+}
+input {
+	padding : 0;
+	margin : 0;
+}
+code {
+	background-color: #B1E0FE;
+	border : 1px solid #025388;
+	text-align : left;
+	display: block;
+	margin-right: 10px;
+	margin-left: 10px;
+	padding: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+/* ******************************************* MODULES */
+table.moduletable {
+	border-width: 0px;
+	border-style: none;
+	border-color: inherit;
+	width : 100%;
+	padding : 0px;
+	margin : 0px 0px 0px 0px;
+}
+table.moduletable th {
+	height : 21px;
+	font-family : tahoma, Arial, Verdana, sans-serif, Helvetica;
+	font-size : 10px;
+	font-weight : bolder;
+	color : #333;
+	text-indent : 2em;
+	text-align : left;
+	padding : 0px 0px 0px 0px;
+	margin : 0px;
+	border : 0;
+	line-height : 28px;
+}
+table.moduletable td {
+	font : normal 11px tahoma, Arial, Helvetica, sans-serif;
+	color : #333;
+	text-align : left;
+	padding : 0px;
+	margin : 0px;
+	border : 0;
+}
+.moduletable a:link, .moduletable a:visited {
+	color : #333;
+	font-weight : bold;
+	font-size : 11px;
+	font-family : tahoma, Arial, Verdana, sans-serif, Helvetica;
+	text-decoration : none;
+}
+.moduletable a:hover {
+	color : #158DD6;
+	text-decoration : none;
+}
+table.moduletable ul {
+	padding : 0;
+	margin : 0 0 0 3px;
+}
+.button {
+	font : normal 10px tahoma, Arial, Helvetica, sans-serif;
+	padding : 2px 2px 0px 2px;
+	color : #ffffff;
+	border : 0px;
+	background-color: #158DD6;
+}
+.inputbox, .search {
+	font : normal 11px tahoma, Arial, Helvetica, sans-serif;
+	color : #333;
+	border : 1px solid #999;
+	background : url(images/bg_input.gif) repeat-x;
+}
+select.inputbox {
+	font : normal 11px tahoma, Arial, Helvetica, sans-serif;
+	color : #333;
+	border : 1px solid #E6D2B5;
+	background : #ffffff url(images/bg_input.gif);
+}
+/* ******************************************* CONTENT STYLES */
+/*.contentpane, */
+.contentpaneopen {
+	margin: 0px;
+	text-align : left;
+	color : #333;
+	padding : 0px;
+	width : 100%;
+}
+.contentpaneopen td {
+	margin: 0px;
+	padding: 0px;
+}
+.componentheading {
+	margin: 0px;
+	background: url(images/componentTitle.jpg) no-repeat;
+	background-position: left;
+	height: 20px;
+	width: 370PX;
+	padding: 8px 0px 0px 5px;
+	font : bold 12px tahoma, Arial, Verdana, sans-serif, Helvetica;
+	color : #FFFFFF;
+	text-align: left;
+}
+a.readon:link, a.readon:visited {
+	font : bold 10px Tahoma, Arial, Helvetica, sans-serif;
+	color : #333;
+	background : url(images/arrow.gif) no-repeat;
+	background-position: 10% 50%;
+	border : 1px solid #E0E0E0;
+	padding : 2px 4px 2px 20px;
+	white-space : nowrap;
+	float : right;
+	line-height : 10px;
+	text-align : left;
+	text-decoration : none;
+}
+a.readon:hover {
+	color : #158DD6;
+	text-decoration : none;
+}
+
+#main_content {
+	width: 100%;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+/* ******************************************* MAIN AND SUB MENU SYSTEM  */
+.mainlevel {
+	font : bold 12px Arial, Verdana, Helvetica, sans-serif;
+	line-height : 22px;
+}
+a.mainlevel:link, a.mainlevel:visited {
+	display : block;
+	background : url(images/navi.jpg) no-repeat;
+	padding : 0px 0px 0px 0px;
+	height : 22px;
+	font : bold 12px tahoma, Arial, Verdana, Helvetica, sans-serif;
+	color : #ffffff;
+	text-decoration : none;
+	text-indent : 15px;
+	border : 0px;
+	line-height : 22px;
+}
+a.mainlevel:hover {
+	background : url(images/navi_h.jpg) no-repeat;
+	color : #000;
+	text-decoration : none;
+	padding : 0px 0px 0px 0px;
+}
+a.mainlevel#active_menu {
+	background : url(images/navi_active.jpg) no-repeat;
+	color : #000;
+	padding: 0px 0px 0px 0px;
+}
+
+.mainlevel_1 {
+	font : bold 12px Arial, Verdana, Helvetica, sans-serif;
+	line-height : 22px;
+}
+a.mainlevel_1:link, a.mainlevel_1:visited {
+	display : block;
+	background : url(images/navi.jpg) no-repeat; 
+	padding : 0px 0px 0px 0px;
+	height : 22px;
+	font : bold 12px tahoma, Arial, Verdana, Helvetica, sans-serif;
+	color : #ffffff;
+	text-decoration : none;
+	text-indent : 15px;
+	border : 0px;
+	line-height : 22px;
+}
+a.mainlevel_1:hover {
+	background : url(images/navi_h.jpg) no-repeat;
+	color : #000;
+	text-decoration : none;
+	padding : 0px 0px 0px 0px;
+}
+a.mainlevel_1#active_menu {
+	background : url(images/navi_active.jpg) no-repeat;
+	color : #000;
+	padding: 0px 0px 0px 0px;
+}
+
+#active_menu {
+	background : url(images/navi_active.jpg) no-repeat;
+	color : #000;
+	padding : 0px 0px 0px 0px;
+}
+a.sublevel:link, a.sublevel:visited {
+	display : block;
+	padding : 0px 0px 0px 25px;
+	text-decoration : none;
+	font : bold 12px tahoma, Arial, Verdana, Helvetica, sans-serif;
+	color : #158DD6;
+	line-height : 16px;
+}
+a.sublevel:hover {
+	color : #333;
+	text-decoration : none;
+}
+a.sublevel#active_menu {
+	border : 0;
+	font : bold 12px tahoma, Arial, Verdana, Helvetica, sans-serif;
+	color : #158DD6;
+	text-decoration : none;
+	background : #ffffff;
+	line-height : 16px;
+	padding : 0px 0px 0px 25px;
+}
+/* ******************************************* TOP MENU SYSTEM  */
+ul#mainlevel-nav {
+	list-style : none;
+	padding : 0;
+	margin : 50px 0px 0px 0px;
+	float : right;
+	white-space : nowrap;
+	color : #FFFFFF;
+}
+ul#mainlevel-nav li {
+	background : #158DD6 url(images/snavi1.gif) top right no-repeat;
+	width : auto;
+	width : 5%;
+	float : left;
+	color : #FFFFFF;
+	white-space : nowrap;
+	margin-right : 3px;
+}
+#mainlevel-nav li a {
+	background : url(images/snavi2.gif) top left no-repeat;
+	display : block;
+	height : 18px;
+	font : bold 12px tahoma, Verdana, Arial, Helvetica, sans-serif;
+	padding : 0px 12px 0px 0px;
+	text-decoration : none;
+	color : #FFFFFF;
+	line-height : 18px;
+	white-space : nowrap;
+}
+ul#mainlevel-nav li a:hover {
+	color : #FFFFFF;
+	background : url(images/snavi2.gif) top left no-repeat;
+}
+ul#mainlevel-nav li:hover {
+	background : #158DD6 url(images/snavi1.gif) top right no-repeat;
+}
